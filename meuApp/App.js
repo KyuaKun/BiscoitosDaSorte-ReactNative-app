@@ -8,7 +8,7 @@ function App() {
 
   const listaFrases = [
     'Permita-se não saber das coisas. Ignorância é não querer saber.',
-    'Aprenda com o Passado, trabalhe para melhorar o Futuro, mas sinta o Presente. Viva o Presente.',
+    'Aprenda com o Passado, escreva seu Futuro, mas sinta o Presente. Viva o Presente.',
     'O caminho árduo é o caminho certo.',
     'Se você não fizer por você, nimguém vai.',
     'Não importa quanto tempo leve. Se precisa ser feito, apenas faça. O tempo vai passar de qualquer jeito',
@@ -18,6 +18,8 @@ function App() {
     'O campeão é feito de 99% discplina e 1% motivação',
     'O sucesso é a consequência de várias tentativas e erros.',
     'Importante não é vencer todos os dias, mas lutar sempre.',
+    'Há momentos que você precisa desistir de alguma coisa para preservar outra.',
+    
   ];
 
   function quebrarBiscoito() {
@@ -72,7 +74,7 @@ const styles = StyleSheet.create({
     height: 230,
   },
   textoMensagem: {
-    fontSize: 20,
+    fontSize: 23,
     color: '#dd7b22',
     margin: 30,
     fontStyle: 'italic',
